@@ -152,7 +152,7 @@ def visualize_tree(tree, fn_values, visited_order, goal, filename="a_star_tree")
 # ---------- 실행 ----------
 
 if __name__ == "__main__":
-    start_state = ((2, 3, 6), (1, 4, 8), (7, 5, 0))
+    start_state = ((4, 1, 3), (0, 2, 6), (7, 5, 8))
 
     solution, visited_order, tree, fn_values = a_star(start_state)
 

@@ -1,83 +1,61 @@
 // A* Search Tree
 digraph {
 	rankdir=TB size=10
-	"9ea91d0087ba949fea6db87a965b4ce5" [label="2 3 6
-1 4 8
-7 5 _
-0 + 8 = 8" fillcolor="#ffffff" fontname=Arial shape=box style=solid]
+	"0762adb9647fa97ddd4ed08accdd2cf8" [label="4 1 3
+2 _ 6
+7 5 8
+1 + 6 = 7" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
+	"644774e749af249867715476f9a2fd20" [label="1 3 _
+4 2 6
+7 5 8
+2 + 4 = 6" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
 	e06ddcf5b0d710fd75545c91eb84a860 [label="1 2 3
 4 5 6
 7 8 _
-6 + 0 = 6" fillcolor="#a0ffa0" fontname=Arial shape=box style=solid]
-	d16cb9bb79a769ef4a777549c8d2acac [label="2 _ 3
-1 4 6
-7 5 8
-2 + 5 = 7" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
-	"920e7cfb5afa9adb94b80af79a6800f2" [label="_ 2 3
-1 4 6
-7 5 8
-2 + 4 = 6" fillcolor="#ffffff" fontname=Arial shape=box style=solid]
-	c77da7a3cee78269841d321e9d81c990 [label="2 3 6
-1 4 8
-7 _ 5
-1 + 9 = 10" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
-	"76b27e0f6906f625ed0286a24c89b823" [label="1 2 3
-4 5 6
-_ 7 8
-6 + 2 = 8" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
-	"3e93d2379c5e5751d00be7e83fbd36a6" [label="1 2 3
-4 5 6
-7 _ 8
-5 + 1 = 6" fillcolor="#ffffff" fontname=Arial shape=box style=solid]
-	"8ecde3bc7b64b20ef0afb263e86a7f7d" [label="1 _ 3
+4 + 0 = 4" fillcolor="#a0ffa0" fontname=Arial shape=box style=solid]
+	c7793cb270914e5f16168621cfe508cf [label="_ 1 3
 4 2 6
 7 5 8
-5 + 3 = 8" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
-	"99aaeb7fb0848bc79fe2e2f0b0ccb9d0" [label="2 3 _
-1 4 6
-7 5 8
-1 + 6 = 7" fillcolor="#ffffff" fontname=Arial shape=box style=solid]
-	"57b4afbc804c564120678476bf27d2f8" [label="1 2 3
-7 4 6
-_ 5 8
-3 + 4 = 7" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
-	"5a411571639f14860920497c6dd1db10" [label="1 2 3
-4 6 _
-7 5 8
-4 + 3 = 7" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
+1 + 4 = 5" fillcolor="#ffffff" fontname=Arial shape=box style=solid]
 	fd5cf30226a982c1fbc01c800c5fe26d [label="1 2 3
 4 _ 6
 7 5 8
-4 + 2 = 6" fillcolor="#ffffff" fontname=Arial shape=box style=solid]
-	"1dcf748838f9ea675e9ebd7c71c575e5" [label="2 3 6
-1 4 8
-_ 7 5
-1 + 10 = 11" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
-	"0e05cec276013c176e7ca60efacca5d2" [label="2 3 6
-1 4 _
+3 + 2 = 5" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
+	"76b27e0f6906f625ed0286a24c89b823" [label="1 2 3
+4 5 6
+_ 7 8
+4 + 2 = 6" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
+	f24a5d9bbb5d6e71ac4eb5a5dd2cdacf [label="4 1 3
+7 2 6
+_ 5 8
+1 + 6 = 7" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
+	"3e93d2379c5e5751d00be7e83fbd36a6" [label="1 2 3
+4 5 6
+7 _ 8
+3 + 1 = 4" fillcolor="#ffffff" fontname=Arial shape=box style=solid]
+	"38d657b105124d51dce5912aa0b20c81" [label="4 1 3
+_ 2 6
+7 5 8
+0 + 5 = 5" fillcolor="#ffffff" fontname=Arial shape=box style=solid]
+	"8ecde3bc7b64b20ef0afb263e86a7f7d" [label="1 _ 3
+4 2 6
+7 5 8
+2 + 3 = 5" fillcolor="#ffffff" fontname=Arial shape=box style=solid]
+	"861a92281640807a887cc63479a52be7" [label="4 1 3
+2 6 _
 7 5 8
 1 + 7 = 8" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
-	"7eaa191d1c452dd78e525ea45c4f1ec5" [label="1 2 3
-_ 4 6
-7 5 8
-3 + 3 = 6" fillcolor="#ffffff" fontname=Arial shape=box style=solid]
-	"9ea91d0087ba949fea6db87a965b4ce5" -> "0e05cec276013c176e7ca60efacca5d2"
-	"9ea91d0087ba949fea6db87a965b4ce5" -> c77da7a3cee78269841d321e9d81c990
-	"9ea91d0087ba949fea6db87a965b4ce5" -> "99aaeb7fb0848bc79fe2e2f0b0ccb9d0"
-	"9ea91d0087ba949fea6db87a965b4ce5" -> "1dcf748838f9ea675e9ebd7c71c575e5"
-	"99aaeb7fb0848bc79fe2e2f0b0ccb9d0" -> "0e05cec276013c176e7ca60efacca5d2"
-	"99aaeb7fb0848bc79fe2e2f0b0ccb9d0" -> d16cb9bb79a769ef4a777549c8d2acac
-	"99aaeb7fb0848bc79fe2e2f0b0ccb9d0" -> "920e7cfb5afa9adb94b80af79a6800f2"
-	"920e7cfb5afa9adb94b80af79a6800f2" -> "7eaa191d1c452dd78e525ea45c4f1ec5"
-	"920e7cfb5afa9adb94b80af79a6800f2" -> d16cb9bb79a769ef4a777549c8d2acac
-	"920e7cfb5afa9adb94b80af79a6800f2" -> "57b4afbc804c564120678476bf27d2f8"
-	"7eaa191d1c452dd78e525ea45c4f1ec5" -> "57b4afbc804c564120678476bf27d2f8"
-	"7eaa191d1c452dd78e525ea45c4f1ec5" -> fd5cf30226a982c1fbc01c800c5fe26d
-	"7eaa191d1c452dd78e525ea45c4f1ec5" -> "5a411571639f14860920497c6dd1db10"
-	fd5cf30226a982c1fbc01c800c5fe26d -> "8ecde3bc7b64b20ef0afb263e86a7f7d"
-	fd5cf30226a982c1fbc01c800c5fe26d -> "3e93d2379c5e5751d00be7e83fbd36a6"
-	fd5cf30226a982c1fbc01c800c5fe26d -> "5a411571639f14860920497c6dd1db10"
+	"38d657b105124d51dce5912aa0b20c81" -> c7793cb270914e5f16168621cfe508cf
+	"38d657b105124d51dce5912aa0b20c81" -> f24a5d9bbb5d6e71ac4eb5a5dd2cdacf
+	"38d657b105124d51dce5912aa0b20c81" -> "0762adb9647fa97ddd4ed08accdd2cf8"
+	"38d657b105124d51dce5912aa0b20c81" -> "861a92281640807a887cc63479a52be7"
+	c7793cb270914e5f16168621cfe508cf -> "8ecde3bc7b64b20ef0afb263e86a7f7d"
+	c7793cb270914e5f16168621cfe508cf -> f24a5d9bbb5d6e71ac4eb5a5dd2cdacf
+	c7793cb270914e5f16168621cfe508cf -> "644774e749af249867715476f9a2fd20"
+	"8ecde3bc7b64b20ef0afb263e86a7f7d" -> fd5cf30226a982c1fbc01c800c5fe26d
+	"8ecde3bc7b64b20ef0afb263e86a7f7d" -> "644774e749af249867715476f9a2fd20"
+	"8ecde3bc7b64b20ef0afb263e86a7f7d" -> "3e93d2379c5e5751d00be7e83fbd36a6"
+	"3e93d2379c5e5751d00be7e83fbd36a6" -> fd5cf30226a982c1fbc01c800c5fe26d
 	"3e93d2379c5e5751d00be7e83fbd36a6" -> "76b27e0f6906f625ed0286a24c89b823"
 	"3e93d2379c5e5751d00be7e83fbd36a6" -> e06ddcf5b0d710fd75545c91eb84a860
-	"3e93d2379c5e5751d00be7e83fbd36a6" -> "8ecde3bc7b64b20ef0afb263e86a7f7d"
 }
