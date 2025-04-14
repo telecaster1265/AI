@@ -1,0 +1,63 @@
+// A* Search Tree
+digraph {
+	rankdir=TB size=10
+	"0762adb9647fa97ddd4ed08accdd2cf8" [label="4 1 3
+2 _ 6
+7 5 8
+1 + 6 = 7 (미확장)" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
+	"644774e749af249867715476f9a2fd20" [label="1 3 _
+4 2 6
+7 5 8
+3 + 4 = 7 (미확장)" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
+	e06ddcf5b0d710fd75545c91eb84a860 [label="1 2 3
+4 5 6
+7 8 _
+5 + 0 = 5" fillcolor="#a0ffa0" fontname=Arial shape=box style=solid]
+	c7793cb270914e5f16168621cfe508cf [label="_ 1 3
+4 2 6
+7 5 8
+1 + 4 = 5" fillcolor="#ffffff" fontname=Arial shape=box style=solid]
+	"76b27e0f6906f625ed0286a24c89b823" [label="1 2 3
+4 5 6
+_ 7 8
+5 + 2 = 7 (미확장)" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
+	f24a5d9bbb5d6e71ac4eb5a5dd2cdacf [label="4 1 3
+7 2 6
+_ 5 8
+1 + 6 = 7 (미확장)" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
+	"3e93d2379c5e5751d00be7e83fbd36a6" [label="1 2 3
+4 5 6
+7 _ 8
+4 + 1 = 5" fillcolor="#ffffff" fontname=Arial shape=box style=solid]
+	"38d657b105124d51dce5912aa0b20c81" [label="4 1 3
+_ 2 6
+7 5 8
+0 + 5 = 5" fillcolor="#ffffff" fontname=Arial shape=box style=solid]
+	"8ecde3bc7b64b20ef0afb263e86a7f7d" [label="1 _ 3
+4 2 6
+7 5 8
+2 + 3 = 5" fillcolor="#ffffff" fontname=Arial shape=box style=solid]
+	fd5cf30226a982c1fbc01c800c5fe26d [label="1 2 3
+4 _ 6
+7 5 8
+3 + 2 = 5" fillcolor="#ffffff" fontname=Arial shape=box style=solid]
+	"5a411571639f14860920497c6dd1db10" [label="1 2 3
+4 6 _
+7 5 8
+4 + 3 = 7 (미확장)" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
+	"7eaa191d1c452dd78e525ea45c4f1ec5" [label="1 2 3
+_ 4 6
+7 5 8
+4 + 3 = 7 (미확장)" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
+	"38d657b105124d51dce5912aa0b20c81" -> c7793cb270914e5f16168621cfe508cf
+	"38d657b105124d51dce5912aa0b20c81" -> f24a5d9bbb5d6e71ac4eb5a5dd2cdacf
+	"38d657b105124d51dce5912aa0b20c81" -> "0762adb9647fa97ddd4ed08accdd2cf8"
+	c7793cb270914e5f16168621cfe508cf -> "8ecde3bc7b64b20ef0afb263e86a7f7d"
+	"8ecde3bc7b64b20ef0afb263e86a7f7d" -> fd5cf30226a982c1fbc01c800c5fe26d
+	"8ecde3bc7b64b20ef0afb263e86a7f7d" -> "644774e749af249867715476f9a2fd20"
+	fd5cf30226a982c1fbc01c800c5fe26d -> "3e93d2379c5e5751d00be7e83fbd36a6"
+	fd5cf30226a982c1fbc01c800c5fe26d -> "7eaa191d1c452dd78e525ea45c4f1ec5"
+	fd5cf30226a982c1fbc01c800c5fe26d -> "5a411571639f14860920497c6dd1db10"
+	"3e93d2379c5e5751d00be7e83fbd36a6" -> "76b27e0f6906f625ed0286a24c89b823"
+	"3e93d2379c5e5751d00be7e83fbd36a6" -> e06ddcf5b0d710fd75545c91eb84a860
+}
