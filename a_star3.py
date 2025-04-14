@@ -120,7 +120,7 @@ def visualize_tree(tree, fn_values, visited_order, goal, filename="a_star_tree")
             else:
                 g = 0  # 루트 노드에 가까운 경우 기본값
             h = heuristic(state)
-            label = format_state(state) + f"\n{g} + {h} = {g + h} (미확장)"
+            label = format_state(state) + f"\n{g} + {h} = {g + h}"
         shape = "box"
         style = "solid" if state in visited_order else "dashed"
         fillcolor = "#a0ffa0" if state == goal else "#ffffff"

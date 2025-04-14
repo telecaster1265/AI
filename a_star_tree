@@ -4,11 +4,11 @@ digraph {
 	"0762adb9647fa97ddd4ed08accdd2cf8" [label="4 1 3
 2 _ 6
 7 5 8
-1 + 6 = 7 (미확장)" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
+1 + 6 = 7" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
 	"644774e749af249867715476f9a2fd20" [label="1 3 _
 4 2 6
 7 5 8
-3 + 4 = 7 (미확장)" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
+3 + 4 = 7" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
 	e06ddcf5b0d710fd75545c91eb84a860 [label="1 2 3
 4 5 6
 7 8 _
@@ -20,11 +20,11 @@ digraph {
 	"76b27e0f6906f625ed0286a24c89b823" [label="1 2 3
 4 5 6
 _ 7 8
-5 + 2 = 7 (미확장)" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
+5 + 2 = 7" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
 	f24a5d9bbb5d6e71ac4eb5a5dd2cdacf [label="4 1 3
 7 2 6
 _ 5 8
-1 + 6 = 7 (미확장)" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
+1 + 6 = 7" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
 	"3e93d2379c5e5751d00be7e83fbd36a6" [label="1 2 3
 4 5 6
 7 _ 8
@@ -44,11 +44,11 @@ _ 2 6
 	"5a411571639f14860920497c6dd1db10" [label="1 2 3
 4 6 _
 7 5 8
-4 + 3 = 7 (미확장)" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
+4 + 3 = 7" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
 	"7eaa191d1c452dd78e525ea45c4f1ec5" [label="1 2 3
 _ 4 6
 7 5 8
-4 + 3 = 7 (미확장)" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
+4 + 3 = 7" fillcolor="#ffffff" fontname=Arial shape=box style=dashed]
 	"38d657b105124d51dce5912aa0b20c81" -> c7793cb270914e5f16168621cfe508cf
 	"38d657b105124d51dce5912aa0b20c81" -> f24a5d9bbb5d6e71ac4eb5a5dd2cdacf
 	"38d657b105124d51dce5912aa0b20c81" -> "0762adb9647fa97ddd4ed08accdd2cf8"
