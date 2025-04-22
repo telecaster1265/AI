@@ -109,7 +109,7 @@ def state_to_id(state):
     return hashlib.md5(str(state).encode()).hexdigest()
 
 
-def visualize_tree(tree, fn_values, visited_order, goal, filename="a_star_tree"):
+def visualize_tree(tree, fn_values, visited_order, goal, filename="a_star_double_tree"):
     dot = Digraph(comment="A* Search Tree")
     dot.attr(rankdir="TB", size="10")
 
